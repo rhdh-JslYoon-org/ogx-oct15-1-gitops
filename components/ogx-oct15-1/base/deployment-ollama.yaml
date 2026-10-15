@@ -60,11 +60,11 @@ spec:
               mountPath: /home/ollama/.ollama
           resources:
             requests:
-              memory: "4Gi"
-              cpu: "1000m"
+              memory: "1Gi"
+              cpu: "200m"
             limits:
-              memory: "16Gi"
-              cpu: "4000m"
+              memory: "3Gi"
+              cpu: "2000m"
           securityContext:
             allowPrivilegeEscalation: false
             seccompProfile:
@@ -88,11 +88,11 @@ spec:
               protocol: TCP
           resources:
             requests:
-              memory: "4Gi"
-              cpu: "1000m"
+              memory: "1Gi"
+              cpu: "200m"
             limits:
-              memory: "16Gi"
-              cpu: "4000m"
+              memory: "3Gi"
+              cpu: "2000m"
           securityContext:
             allowPrivilegeEscalation: false
             seccompProfile:
