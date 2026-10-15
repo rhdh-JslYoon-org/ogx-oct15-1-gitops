@@ -63,7 +63,7 @@ spec:
               memory: "1Gi"
               cpu: "200m"
             limits:
-              memory: "3Gi"
+              memory: "5Gi"
               cpu: "2000m"
           securityContext:
             allowPrivilegeEscalation: false
@@ -91,7 +91,7 @@ spec:
               memory: "1Gi"
               cpu: "200m"
             limits:
-              memory: "3Gi"
+              memory: "5Gi"
               cpu: "2000m"
           securityContext:
             allowPrivilegeEscalation: false
