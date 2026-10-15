@@ -17,7 +17,7 @@ data:
   GUARDRAIL_MODEL: "openai/gemini-3.8-flash"
   
   # Model for MCP tool calls
-  MCP_TOOL_MODEL: "openai/gemini-3.8-flash"
+  MCP_TOOL_MODEL: "ollama/llama3.2:3b"
   
   # GitHub repository URL for issue creation
   GITHUB_URL: "https://github.com/redhat-ai-dev/ai-rhdh-installer"
