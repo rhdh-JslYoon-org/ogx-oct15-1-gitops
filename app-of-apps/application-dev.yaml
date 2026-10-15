@@ -16,7 +16,7 @@ spec:
   syncPolicy:
     managedNamespaceMetadata:
       labels:
-        argocd.argoproj.io/managed-by: rhdh-app
+        argocd.argoproj.io/managed-by: openshift-gitops
     automated:
       prune: true
       selfHeal: true
