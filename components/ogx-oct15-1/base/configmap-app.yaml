@@ -14,10 +14,10 @@ data:
   INFERENCE_MODEL: "openai/gemini-3.1-pro-preview"
   
   # Guardrail model for content safety
-  GUARDRAIL_MODEL: "ollama/llama-guard3:8b"
+  GUARDRAIL_MODEL: "openai/gemini-3.8-flash"
   
   # Model for MCP tool calls
-  MCP_TOOL_MODEL: "ollama/llama3.1:latest"
+  MCP_TOOL_MODEL: "openai/gemini-3.8-flash"
   
   # GitHub repository URL for issue creation
   GITHUB_URL: "https://github.com/redhat-ai-dev/ai-rhdh-installer"
